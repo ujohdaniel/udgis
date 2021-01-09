@@ -1,0 +1,429 @@
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+} */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden; 
+}
+/* end of universal */
+
+ /* admissions */
+#admissions{
+    margin-top: 13vh;
+    width: 100%;
+    /* height: 300vh; */
+    position: relative;
+}
+
+/* admission media */
+@media screen and (max-width: 985px){
+
+    #admissions{
+        margin-top: 0;
+        width: 100%;
+        /* height: 300vh; */
+        position: relative;
+    }
+}
+/* end of admission media */
+
+/* crech */
+#admissions .creche{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, blue, transparent), url(../gallery/creche.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    border-bottom: 50px solid white;
+
+}
+#admissions .creche .package{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+#admissions .creche .package h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#admissions .creche .package p{
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+/* crech media */
+@media screen and (max-width: 985px){
+    #admissions .creche{
+        width: 100%;
+        height: 100vh;
+        border-bottom: 30px solid white;
+    
+    }
+    #admissions .creche .package{
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+    }
+    #admissions .creche .package h1{
+        font-size: 1.9rem;
+    }
+    #admissions .creche .package p{
+        font-size: 13px;
+        width: 80%;
+        margin-top: 0;
+    }
+}
+/* end of crech media */
+/* end of crech */
+
+/* pre-nursery */
+#admissions .pre-nursery{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, blue, transparent), url(../gallery/crech2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    border-bottom: 50px solid white;
+    position: relative;
+}
+#admissions .pre-nursery .stroke{
+    position: absolute;
+    right: 100%;
+    transform: skewX(10deg);
+}
+#admissions .pre-nursery .package{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    right: 5%;
+}
+#admissions .pre-nursery .package h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#admissions .pre-nursery .package p{
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+/* pre-nursery media */
+@media screen and (max-width: 985px){
+    #admissions .pre-nursery{
+        width: 100vw;
+        height: 100vh;
+        border-bottom: 30px solid white;
+        position: relative;
+    }
+    #admissions .pre-nursery .stroke{
+        position: absolute;
+        right: 100%;
+        transform: skewX(10deg);
+    }
+    #admissions .pre-nursery .package{
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        right: 5%;
+    }
+    #admissions .pre-nursery .package h1{
+        font-size: 1.9rem;
+    }
+    #admissions .pre-nursery .package p{
+        font-size: 13px;
+        width: 80%;
+        margin-top: 0;
+    }
+}
+/* end of pre-nursery media*/
+/* end pre-nursery */
+
+/* nursery */
+#admissions .nursery{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, blue, transparent), url(../gallery/IMG-20201124-WA0055.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    border-bottom: 50px solid white;
+
+}
+#admissions .nursery .package{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+#admissions .nursery .package h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#admissions .nursery .package p{
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+/* nursery media */
+@media screen and (max-width: 985px){
+    #admissions .nursery{
+        width: 100%;
+        height: 100vh;
+        border-bottom: 30px solid white;
+    }
+    #admissions .nursery .package{
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+    }
+    #admissions .nursery .package h1{
+        font-size: 1.9rem;
+    }
+    #admissions .nursery .package p{
+        font-size: 13px;
+        width: 80%;
+        margin-top: 0;
+    }
+}
+/* end of nursery media */
+/* end of nursery */
+
+/* primary */
+#admissions .primary{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, blue, transparent), url(../gallery/crech2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    border-bottom: 50px solid white;
+    position: relative;
+}
+#admissions .primary .stroke{
+    position: absolute;
+    right: 100%;
+    transform: skewX(10deg);
+}
+#admissions .primary .package{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    right: 5%;
+}
+#admissions .primary .package h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#admissions .primary .package p{
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+/* primary media */
+@media screen and (max-width: 985px){
+    #admissions .primary{
+        width: 100vw;
+        height: 100vh;
+        border-bottom: 30px solid white;
+        position: relative;
+    }
+    #admissions .primary .stroke{
+        position: absolute;
+        right: 100%;
+        transform: skewX(10deg);
+    }
+    #admissions .primary .package{
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        right: 5%;
+    }
+    #admissions .primary .package h1{
+        font-size: 1.9rem;
+    }
+    #admissions .primary .package p{
+        font-size: 13px;
+        width: 80%;
+        margin-top: 0;
+    }
+}
+/* end of primary media*/
+/* end primary */
+
+
+/* secondary */
+#admissions .secondary{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, blue, transparent), url(../gallery/prim2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#admissions .secondary .package{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+#admissions .secondary .package h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#admissions .secondary .package p{
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+/* secondary media  */
+@media screen and (max-width: 985px){
+    #admissions .secondary{
+        width: 100vw;
+        height: 100vh;
+        border-bottom: 10px solid white;
+    }
+    #admissions .secondary .package{
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+    }
+    #admissions .secondary .package h1{
+        font-size: 1.9rem;
+    }
+    #admissions .secondary .package p{
+        font-size: 13px;
+        width: 80%;
+        margin-top: 0;
+    }
+}
+/* end of secondary media  */
+/* end of secondary */
+
+/* classes */
+.stroke{
+    background: white;
+    height: 400px;
+    width: 6px;
+    position: absolute;
+    top: 15%;
+    right: 0.5%;
+    transform: skewX(-10deg)
+}
+.btn{
+    width: 250px;
+    height: 38px;
+    border: 2px solid white;
+    display: inline-block;
+    text-decoration: none; 
+    text-align: center;
+    padding-top: 3px;
+    background: white;
+    color: blue;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 43;
+    transition: width .3s linear;
+   }
+   
+   .btn:hover{
+       cursor: pointer;
+       width: 280px;
+   }
+
+/* classes media */
+@media screen and (max-width: 985px){
+    .stroke{
+        background: white;
+        height: 50%;
+        width: 3px;
+        position: absolute;
+        top: 15%;
+        right: 2%;
+        transform: skewX(-10deg)
+    }
+    .btn{
+        width: 150px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        width: 180px;
+    }
+}
+   /* end of classes media */
+   /* end of classes */
+ /* end of admissions */
+

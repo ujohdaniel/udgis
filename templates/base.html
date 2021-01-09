@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="..\static\css\base.css">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <!-- nav -->
+    <nav>
+        <a href="#" class="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul>
+            <li class="brand"><a href="#hero"><img src="../static/gallery/logo1.jpg" alt="logo"></a></li>
+            <div class="nav-links">
+                <li><a  href="/">Home</a></li>
+                <li><a  href="/aboutus">About</a></li>
+                <li><a  href="/admissions">admissions</a></li>
+                <li><a  href="/gallery">gallery</a></li>
+                <li><a  href="/events">events</a></li>
+            </div>
+        </ul>
+    </nav>
+       <!-- end of nav -->
+    
+    {% block body %}
+    {% endblock %}
+    <!-- footer -->
+    <footer>
+        <div class="underline"></div>
+        <div class="contain">
+            <img src="../static/gallery/facebook.png" alt="facebook">
+            <img src="../static/gallery/twitter.png" alt="twitter">
+            <img src="../static/gallery/instagram.png" alt="instagram">
+        </div>
+        <div class="underline"></div>
+        <p>Terms of service    Privacy policy</p>
+
+        <div class="slim-underline"></div>
+        <p>
+            &copy; 2020, UNIQUE DIVINE GRACE INTERNATIONAL SCHOOL,PORT HARCOURT
+        </p>
+        <p>
+            TIP TOP ROAD OFF OROSI AVENUE, PSYCHIATRIC ROAD, RUMUIGBO, PORT HARCOURT
+        </p>
+        <div class="toptech">
+            <p><i> Website Created by TOPTECH</i></p>
+            <img src="../static/gallery/toptech_logo.jpg" alt="toptech">
+        </div> 
+
+    </footer>
+    <!-- end of footer -->
+    
+    <script src="../static/js/nav.js"></script>
+</body>
+</html>
