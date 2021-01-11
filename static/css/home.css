@@ -47,24 +47,30 @@ body{
     z-index: -1
 }
 #hero .home-content{
-   margin-top: 11rem;
-   margin-left: 5rem;
+   margin-top: 7rem;
+   margin-left: 3rem;
    display: inline-block;
 }
 #hero .home-content h1{
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     font-size: 3rem;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+}
+#hero .home-content .motto{
+    margin: 1rem auto;
 }
 #hero .home-content p{
-    margin: 20px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     margin-left: 0;
     color: white;
     font-size: 1rem;
 }
 #hero .home-content .motto{
     font-size: 1.3rem;
+    color: yellow;
 }
 
 /* hero media */
@@ -77,31 +83,33 @@ body{
         background-position: center;
     }
     #hero .home-content{
-        margin-top: 150px;
-        margin-left: 50px;
+        margin-top: 10rem;
+        margin-left: 2rem;
         display: inline-block;
      } 
      #hero .home-content h1{
-        margin-bottom: 20px;
-        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+        font-size: 2rem;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    #hero .home-content p{
-        margin: 20px;
-        margin-left: 0;
-        color: white;
-        font-size: 12px;
-        width: 300px;;
+        color: yellow;
     }
     #hero .home-content .motto{
-        font-size: 17px;
+        margin: 1rem auto;
+    }
+    #hero .home-content p{
+        margin-top: 3.4rem;
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 0.8rem;
+    }
+    #hero .home-content .motto{
+        font-size: 1.1rem;
     }
     #hero .home-content .btn{
-        height: 25px;
-        width: 200px;
+        height: 1.5rem;
+        width: 12rem;
         font-size: 12px;
-        margin-top: 30px;;
     }
     #hero .home-content .btn:hover{
         width: 215px;
@@ -117,22 +125,24 @@ body{
 }
 #trust .container .content{
     width: 22rem;
-    /* height: 300px; */
+    height: 23rem;
     padding: 1rem;
     background: whitesmoke;
     text-align: center;
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 #trust .container .content p{
     text-align: center;
-    margin: 5px auto;
+    margin: 0.1rem auto;
     color: rgb(147, 187, 247);
     font-weight: 700;
 }
 #trust .container .content img{
     display: inline-block;
-    height: 50px;
-    margin: 9px;
+    height: 3.2rem;
+    margin: 0.3;
 }
 #trust .container .content .content-head{
     margin-bottom: 2rem;
@@ -158,34 +168,36 @@ body{
         /* margin-bottom:820px; */
     }   
     #trust .container{
-        width: 22rem;
+        width: 90%;
         /* height: 300px; */
         padding: 1rem;
-        background: whitesmoke;
+        background: rgb(147, 187, 247);
         text-align: center;
         margin: 1rem;
+        align-items: center;
+        justify-content: center;
     }
     #trust .container .content{
         width: 100%;
         /* height: 300px; */
-        padding: 20px;
+        padding: 1.3rem;
         background: whitesmoke;
         text-align: center;
-        margin: 20px auto;
+        margin: 1.3rem auto;
     }
     #trust .container .content p{
         text-align: center;
-        margin: 5px auto;
+        margin: 0.2rem auto;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 1rem;
     }
     #trust .container .content .content-head{
-        margin-bottom: 10px;
-        margin-right: 50px;
+        margin-bottom: .8rem;
+        margin-right: 4rem;
         width: 270px;
         text-align: center;
         display: flex;
-        align-content: center;
+        align-items: center;
         justify-content: center;
     }
     #trust .container .content .content-head h3{ 
@@ -223,7 +235,7 @@ body{
     justify-content: center;
     position: relative;
     z-index: 1;
-    margin-top: 3rem;
+    margin-top: 5rem;
     overflow: hidden;
 }
 #services .service-body::after{
@@ -249,12 +261,13 @@ body{
 #services .service-head p{
     color: blue;
     font-size: 1.3rem;
+    padding: 1.5rem;
 }
 #services .service-content{
-    width: 23rem;
-    padding: 1rem 0;
-    height: 20rem;
-    margin: 0 1.3rem;
+    /* width: 23rem; */
+    padding: 1rem 0.7rem;
+    height: 23rem;
+    margin: 1rem 1.3rem;
     background: #fff;
     border-radius: 1rem;
     box-shadow: 2px 10px 12px rgba(0, 0, 0, .5);
@@ -276,47 +289,47 @@ body{
 
 /* service media */
 @media screen and (max-width:600px){
-#services{
-    width: 100%;
-    /* height: 68vh; */
-    margin-top: 5rem;
-}
-#services .service-body{
-    width: 100%;
-    /* height: 160vh; */
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    margin: 0 auto;
-    overflow: hidden;
-}
-#services .service-head h1{
-    font-size: 1.5rem;
-    color: blue;
-}
-#services .service-head p{
-    font-size: 14px;
-    color: blue;
-}
-#services .service-content{
+    #services{
+        width: 100%;
+        /* height: 68vh; */
+        margin-top: 5rem;
+    }
+    #services .service-body{
+        width: 100%;
+        /* height: 160vh; */
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    #services .service-head h1{
+        font-size: 1.5rem;
+        color: blue;
+    }
+    #services .service-head p{
+        font-size: 14px;
+        color: blue;
+    }
+    #services .service-content{
     width: 80%;
     /* height: 310px; */
     margin: 0 20px;
     background: #fff;
     margin: 16px auto;
     border-radius: 10px;
-  } 
-  #services .service-content .work{
-      font-size: 1.1rem;
-      margin-top: 10px;;
-  }
-  #services .service-content .details{
-      font-size: 14px;
-      font-weight: 400;
-  }
+    } 
+    #services .service-content .work{
+        font-size: 1.1rem;
+        margin-top: 10px;;
+    }
+    #services .service-content .details{
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
 /* end of service media */
 /*end of services
@@ -347,17 +360,18 @@ body{
     padding-top: 5rem;
 }
 #testimonial .line{
-    width: 200px;
-    height: 5px;
+    width: 13rem;
+    height: 0.3rem;
     background: blue;
-    margin: 10px auto;
+    margin: 0.5rem auto;
     box-shadow: 2px 10px 12px rgba(0, 0, 0, .5);
 }
 #testimonial p{  
     font-size: 1.3rem;
     color: blue;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3.8rem;
+    margin-bottom: 3rem;
 }
 #testimonial .testimonial-container{
     width: 100%;
@@ -372,8 +386,8 @@ body{
     background: white;
     margin: 0 40px;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, .7);
-    padding: 20px;
-    padding-bottom: 10px;
+    padding: 1.8rem;
+    padding-bottom: 0.5rem;
 }
 #testimonial .testimonial-container .test-container-content .pic{
     width: 100px;
@@ -430,39 +444,38 @@ body{
 @media screen and (max-width:600px){
     #testimonial{
         width: 100%;
-        margin-top: 5rem;
         /* height: 270vh; */
         position: relative;
         z-index: 1;
-        padding-top: 30px;
+        padding-top: 1.8rem;
     }
     #testimonial p{
-        font-size: 14px;
+        font-size: 0.9rem;
     }
     #testimonial h1{
         font-size: 1.9rem;
     }
     #testimonial .testimonial-container{
         width: 100%;
-        height: 240vh;
-        margin-top: 30px;
+        height: 180vh;
+        margin-top: 1.7rem;
         display: flex;
         flex-direction: column;
     }
     #testimonial .testimonial-container .test-container-content{
         width: 80%;
-        margin: 15px auto;
-        height: 200px;
+        margin: 1rem auto;
+        height: 13rem;
     }
     #testimonial a{
         background: blue;
         color: white;
         border: none;
         border-radius: 0;
-        width: 140px;
+        width: 10rem;
         margin-left: 54%;
-        margin-top: 10px;
-        font-size: 17px;  
+        margin-top: 0.5rem;
+        font-size: 1rem;  
     }
     #testimonial a:hover{
         cursor: pointer;
@@ -486,19 +499,18 @@ body{
     z-index: 1;
 }
 #reg .word{
-    font-size: 18px;
+    font-size: 1.1rem;
     color: blue;
-    margin-top: 10vh;
-    margin: 10vh 40px;
+    margin: auto 2.8rem;
 }
 #reg button{
     margin-top: 4rem;
     margin-left: 35%;
+    margin-bottom: 7rem;
     background: blue;
     color: white;
-    width: 300px;
+    width: 20rem;
     transition: transform .3s linear;
-    margin-bottom: 100px;
     animation: pulse .6s infinite ease;
 }
 #reg button:hover{
@@ -521,27 +533,23 @@ body{
         z-index: 1;
     } 
     #reg .word{
-        font-size: 15px;
+        font-size: 1rem;
         text-align: center;
-        margin-top: 200px;
+        margin-top: 13rem;
         color: blue;
-        margin-top: 10vh;
-        margin: 10vh 40px;
     }
     #reg button{
-        margin: 2rem auto;
-        margin-left: 1rem;
+        margin-top: 5rem auto;
+        margin-left: 17%;
         background: blue;
         color: white;
-        width: 300px;
+        width: 15rem;
         transition: transform .3s linear;
-        margin-bottom: 100px;
         animation: pulse .6s infinite ease;
     }
     #reg button:hover{
         transform: scale(1.1);
         animation: stop .3s infinite ease;
-    
     }
 }
 /* end of reg-media */
@@ -585,7 +593,6 @@ body{
 }
 
 .btn:hover{
-    
     cursor: pointer;
     width: 280px;
 }
@@ -593,16 +600,19 @@ body{
 .container{
     width: 80%;
     /* height: 120vh; */
-    margin: 40px auto;
+    margin: 1rem auto;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     z-index: 1;
     position: relative;
-    padding: 40px;
-    
+    padding: 1rem;
+    background: rgb(147, 187, 247);
+    align-items: center;
+    justify-content: center;
+    /* opacity: .3; */
 }
-.container::after{
+/* .container::after{
     content: "";
     top: 0;
     left: 0;
@@ -612,7 +622,7 @@ body{
     background: rgb(147, 187, 247);
     opacity: .3;
     z-index: -1;
-}
+} */
 .model{
     height: 150px;
     max-height: 100%;

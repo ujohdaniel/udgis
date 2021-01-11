@@ -12,7 +12,7 @@ body{
 /* nav */
 nav{
     /* background: black; */
-    padding: 10px;
+    padding: 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,12 +23,13 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
+    margin-left: 2rem;
 }
 nav ul li a{
     text-decoration: none;
     color:  blue;
     text-transform: uppercase;
-    margin: 40px;
+    margin: 2rem;
     font-size: 1.1rem;
     transition: color .2s linear;
 }
@@ -36,16 +37,16 @@ nav ul li a:hover{
     color: rgb(147, 187, 247);
 }
 nav ul li a img{
-    height: 60px;
+    height: 4rem;
     display: inline-block;
-    margin-right: 70px;
+    margin-right: 4.5rem;
 }
 .nav-links{
     margin: auto 0;
     margin-left: 10rem;
 }
 nav ul li .nav-item{
-    margin: auto 35px;
+    margin: auto 3.8rem;
 }
  /* end of nav */
 
@@ -64,14 +65,14 @@ nav ul li .nav-item{
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 3rem;
+    height: 1.6rem;
 }
 .toggle .bar{
     height: 3px;
     width: 100%;
     background-color:blue;
-    border-radius: 10px;
+    border-radius: 0.7rem;
     transition: background-color .3s linear;
 }
 .toggle:hover .bar{
@@ -86,30 +87,31 @@ nav ul li .nav-item{
 @media screen and (max-width: 900px){
     .toggle{
         display: flex;
+        margin-top: 1rem;
     }
-    /* nav{
-        background: transparent;
-    } */
+    nav{
+        padding: 2rem;
+    }
    
     .nav-links{
         display: none;
-       margin: auto;
+        margin: 0.6rem;
     }
     .nav-links li{
         display: block;
         width: 100%;
         text-align: center;
-        margin: 20px auto;
+        margin: 1.3rem auto;
     }
     .nav-links.active {
         display: block;
     }
     nav ul li a img{
        position: absolute;
-       top: .0;
-       left: .2rem;
+       top: 0.4rem;
+       left: 1rem;
        display: inline-block;
-       height: 40px;
+       height: 4rem;
    } 
    
 }

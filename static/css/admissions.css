@@ -18,7 +18,7 @@ body{
 
  /* admissions */
 #admissions{
-    margin-top: 13vh;
+    padding-top: 5.5rem;
     width: 100%;
     /* height: 300vh; */
     position: relative;
@@ -28,6 +28,7 @@ body{
 @media screen and (max-width: 985px){
 
     #admissions{
+        margin-top: 0;
         margin-top: 0;
         width: 100%;
         /* height: 300vh; */
@@ -50,26 +51,26 @@ body{
 }
 #admissions .creche .package{
     width: 50%;
-    height: 100vh;
+    height: 70vh;
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
     position: relative;
 }
-#admissions .creche .package h1{
+#admissions .creche h1{
     color: white;
     font-size: 3rem;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    padding-top: 5rem;
+    text-align: center;
 }
 #admissions .creche .package p{
     color: white;
-    font-size: 18px;
+    font-size: 1.3rem;
     width: 350px;
     margin: 0 auto;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* crech media */
@@ -78,22 +79,20 @@ body{
         width: 100%;
         height: 100vh;
         border-bottom: 30px solid white;
-    
     }
     #admissions .creche .package{
         width: 50%;
         height: 100vh;
         text-align: center;
-        padding: 20px;
+        /* padding: 1.3rem; */
         position: relative;
     }
-    #admissions .creche .package h1{
+    #admissions .creche h1{
         font-size: 1.9rem;
     }
     #admissions .creche .package p{
-        font-size: 13px;
+        font-size: 1rem;
         width: 80%;
-        margin-top: 0;
     }
 }
 /* end of crech media */
@@ -120,25 +119,25 @@ body{
     width: 50%;
     height: 100vh;
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
     position: absolute;
     right: 5%;
 }
-#admissions .pre-nursery .package h1{
+#admissions .pre-nursery h1{
     color: white;
     font-size: 3rem;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    padding-top: 5rem;
+    text-align: center;
 }
 #admissions .pre-nursery .package p{
     color: white;
-    font-size: 18px;
+    font-size: 1.3rem;
     width: 350px;
     margin: 0 auto;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 /* pre-nursery media */
 @media screen and (max-width: 985px){
@@ -161,11 +160,11 @@ body{
         position: absolute;
         right: 5%;
     }
-    #admissions .pre-nursery .package h1{
+    #admissions .pre-nursery h1{
         font-size: 1.9rem;
     }
     #admissions .pre-nursery .package p{
-        font-size: 13px;
+        font-size: 1rem;
         width: 80%;
         margin-top: 0;
     }
@@ -187,26 +186,26 @@ body{
 }
 #admissions .nursery .package{
     width: 50%;
-    height: 100vh;
+    height: 70vh;
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
     position: relative;
 }
-#admissions .nursery .package h1{
+#admissions .nursery h1{
     color: white;
     font-size: 3rem;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    padding-top: 5rem;
+    text-align: center;
 }
 #admissions .nursery .package p{
     color: white;
-    font-size: 18px;
+    font-size: 1.3rem;
     width: 350px;
     margin: 0 auto;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* nursery media */
@@ -223,11 +222,11 @@ body{
         padding: 20px;
         position: relative;
     }
-    #admissions .nursery .package h1{
+    #admissions .nursery h1{
         font-size: 1.9rem;
     }
     #admissions .nursery .package p{
-        font-size: 13px;
+        font-size: 1rem;
         width: 80%;
         margin-top: 0;
     }
@@ -256,25 +255,25 @@ body{
     width: 50%;
     height: 100vh;
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
     position: absolute;
     right: 5%;
 }
-#admissions .primary .package h1{
+#admissions .primary h1{
     color: white;
     font-size: 3rem;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    padding-top: 5rem;
+    text-align: center;
 }
 #admissions .primary .package p{
     color: white;
-    font-size: 18px;
+    font-size: 1.3rem;
     width: 350px;
     margin: 0 auto;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* primary media */
@@ -294,15 +293,15 @@ body{
         width: 50%;
         height: 100vh;
         text-align: center;
-        padding: 20px;
+        padding: 1.3rem;
         position: absolute;
         right: 5%;
     }
-    #admissions .primary .package h1{
+    #admissions .primary h1{
         font-size: 1.9rem;
     }
     #admissions .primary .package p{
-        font-size: 13px;
+        font-size: 1rem;
         width: 80%;
         margin-top: 0;
     }
@@ -322,26 +321,26 @@ body{
 }
 #admissions .secondary .package{
     width: 50%;
-    height: 100vh;
+    height: 70vh;
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
     position: relative;
 }
-#admissions .secondary .package h1{
+#admissions .secondary h1{
     color: white;
     font-size: 3rem;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    padding-top: 5rem;
+    text-align: center;
 }
 #admissions .secondary .package p{
     color: white;
-    font-size: 18px;
+    font-size: 1.3rem;
     width: 350px;
     margin: 0 auto;
     font-family: sans-serif;
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* secondary media  */
@@ -358,13 +357,13 @@ body{
         padding: 20px;
         position: relative;
     }
-    #admissions .secondary .package h1{
+    #admissions .secondary h1{
         font-size: 1.9rem;
     }
     #admissions .secondary .package p{
-        font-size: 13px;
+        font-size: 1rem;
         width: 80%;
-        margin-top: 0;
+        margin-top: 5rem;
     }
 }
 /* end of secondary media  */
@@ -373,16 +372,16 @@ body{
 /* classes */
 .stroke{
     background: white;
-    height: 400px;
+    height: 20rem;
     width: 6px;
     position: absolute;
-    top: 15%;
+    top: 5%;
     right: 0.5%;
     transform: skewX(-10deg)
 }
 .btn{
-    width: 250px;
-    height: 38px;
+    width: 20rem;
+    height: 2.5rem;
     border: 2px solid white;
     display: inline-block;
     text-decoration: none; 
@@ -409,21 +408,73 @@ body{
         height: 50%;
         width: 3px;
         position: absolute;
-        top: 15%;
+        top: 2rem;
         right: 2%;
-        transform: skewX(-10deg)
+        transform: skewX(-7deg)
     }
     .btn{
-        width: 150px;
-        height: 25px;
-        font-size: 13px;
+        width: 15rem;
+        height: 1.5rem;
+        font-size: 1rem;
     }
     .btn:hover{
         cursor: pointer;
-        width: 180px;
+        width: 17rem;
     }
 }
-   /* end of classes media */
-   /* end of classes */
- /* end of admissions */
+@media screen and (max-width: 780px){
+    .stroke{
+        display: none;
+    }
+
+    /* creche */
+    #admissions .creche .package{
+        width: 100%;
+        text-align: left;
+    }
+    #admissions .creche .package p {
+        margin-left: 1rem;
+    }
+
+    /* pre-nursery */
+    #admissions .pre-nursery .package{
+        width: 100%;
+        text-align: right;
+        right: 1%;
+    }
+    #admissions .pre-nursery .package p {
+        margin-right: 1rem;
+    }
+
+    /* nursery */
+    #admissions .nursery .package{
+        width: 100%;
+        text-align: left;
+    }
+    #admissions .nursery .package p {
+        margin-left: 1rem;
+    }
+
+    /* primary */
+    #admissions .primary .package{
+        width: 100%;
+        text-align: right;
+        right: 1%;
+    }
+    #admissions .primary .package p {
+        margin-right: 1rem;
+    }
+
+    /* secondary */
+    #admissions .secondary .package{
+        width: 100%;
+        text-align: left;
+    }
+    #admissions .secondary .package p {
+        margin-left: 1rem;
+    }
+}
+/* end of classes media */
+/* end of classes */
+/* end of admissions */
 
